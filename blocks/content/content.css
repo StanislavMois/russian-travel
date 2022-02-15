@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+  box-sizing: border-box;
+  grid-template-areas: "lead"
+  "intro"
+  "photo-grid"
+  "places"
+  "cover"
+  "footer"; 
+}
+
+@media all and (max-width: 1010px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media all and (max-width: 755px) {
+  .content {
+    gap: 64px;
+  }
+}

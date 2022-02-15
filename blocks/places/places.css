@@ -1,0 +1,23 @@
+.places {
+    margin: auto;
+    grid-area: places;
+    display: grid;
+    grid-column: auto;
+    grid-auto-flow: dense;
+    row-gap: 80px;
+    max-width: 984px;
+}
+
+@media screen and (max-width:1010px) {
+    .places {
+        row-gap: 72px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .places {
+        row-gap: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

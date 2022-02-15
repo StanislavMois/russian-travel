@@ -1,0 +1,25 @@
+.lead {
+    grid-area: lead;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;
+    justify-self: center;
+    padding: 0 148px;
+    margin: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .lead {
+        max-width: 100%;
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        object-fit: contain;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

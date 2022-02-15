@@ -1,0 +1,13 @@
+.place__image {
+    grid-area: image;
+    width: 100%;
+}
+
+@media (max-width:  755px) {
+    .place__image {
+        margin-bottom: 32px;
+    }
+    .place__image:last-of-type {
+        margin-bottom: 28px;
+    }
+}
