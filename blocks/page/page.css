@@ -1,4 +1,4 @@
-.root {
+.page {
     background-color: #2A2C2F;
     color: #FFFFFF;
     font-weight: 400;
@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 755px) {
-    .root {
+    .page {
         padding-top: 16px;
     }
 }
